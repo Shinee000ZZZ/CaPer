@@ -1,0 +1,124 @@
+    @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255) !important;
+        font-family: 'Poppins', sans-serif !important;
+    }
+
+    .navbar {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        border-radius: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+
+    h1,
+    h2 {
+        color: #343a40;
+    }
+
+    p.lead {
+        font-size: 1.25rem;
+        color: #6c757d;
+    }
+
+    ul {
+        padding-left: 20px;
+
+
+        ul li {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+
+        .img-fluid {
+            max-width: 200%;
+            height: auto;
+            border-radius: 10px;
+            margin-left: 50px;
+        }
+
+    }
+
+    .container-fluid a {
+        margin-left: 20px;
+    }
+
+    /* perbesar gambarnya */
+    #hero img {
+        max-width: 119%;
+        height: auto;
+        margin-left: 32px;
+    }
+
+    #heroText a,
+    p,
+    h1 {
+        margin-left: -57px;
+        font-size: larger;
+    }
+
+    #judulHero {
+        font-size: 70px;
+    }
+
+    .scrollToTopContainer {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .scrollToTopContainer.show {
+        opacity: 1;
+    }
+
+    .services .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        margin-top: 4.5rem;
+    }
+
+    .services .box-container .box {
+        flex: 1 1 30rem;
+        border-radius: .5rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .services .box-container .box i {
+        padding: 1rem;
+        font-size: 5rem;
+        color: var(--orange);
+    }
+
+    .services .box-container .box h3 {
+        font-size: 3rem;
+        color: #333;
+    }
+
+    .services .box-container .box p {
+        font-size: 1.5rem;
+        color: #666;
+        padding: 1rem 0;
+    }
+
+    .services .box-container .box:hover {
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+    }
